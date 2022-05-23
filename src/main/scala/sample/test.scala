@@ -29,7 +29,11 @@ object test {
     sorted_result.coalesce(1).saveAsTextFile("file:///C:/SparkScala/input_data/wordcount_output")
 
     sc.stop()
+
+    println("code was committed to git")
+
     println("added to master")
+
   }
 
 }
