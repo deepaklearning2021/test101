@@ -29,6 +29,7 @@ object test {
     sorted_result.coalesce(1).saveAsTextFile("file:///C:/SparkScala/input_data/wordcount_output")
 
     sc.stop()
+    println("added to master")
   }
 
 }
