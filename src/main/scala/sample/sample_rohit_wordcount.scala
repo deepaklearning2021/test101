@@ -27,6 +27,8 @@ object sample_rohit_wordcount {
     sorted_result.foreach(println)
     println("done deepak's part")
 
+    println("rohit-1 updated")
+
 
     sc.stop()
 
